@@ -1,18 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ComponentUser from "./components/ComponentUser";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Haipeng Liu's first react App.
-        </p>
-      </header>
+    <div>
+      <ComponentUser />
     </div>
   );
-}
+};
 
 export default App;
