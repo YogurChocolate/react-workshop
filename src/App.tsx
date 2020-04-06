@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import ComponentUser from "./components/ComponentUser";
+import UserPage from "./pages/UserPage";
 
 const App = () => {
   return (
     <div>
-      <ComponentUser />
+      <UserPage formTitle='Personal Info'/>
     </div>
   );
 };
